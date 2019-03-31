@@ -18,7 +18,7 @@ bot.on('message', (msg) => {
        bot.sendMessage(chatId, 'Hello');
     else if (msg.text == "Hello")
        bot.sendMessage(chatId, 'Hi');
-    else  
-       bot.sendMessage(chatId, '//')
+    else   
+       bot.sendMessage(chatId, 'achanode pooyi parayada poori mwone')
             
 });

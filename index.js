@@ -19,7 +19,6 @@ bot.on('message', (msg) => {
     else if (msg.text == "Hello")
        bot.sendMessage(chatId, 'Hi');
     else   
-       while(1)
-           bot.sendMessage(chatId, '??')
+           bot.sendMessage(chatId, while(1){'??'})
             
 });

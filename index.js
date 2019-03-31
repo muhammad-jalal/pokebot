@@ -2,8 +2,8 @@ const TelegramBot = require('node-telegram-bot-api');
 
 const port = process.env.PORT || 443,
     host = '0.0.0.0', // probably this change is not required
-    externalUrl = process.env.HOSTURL,
-    token = process.env.TOKEN || 'YOUR TELEGRAM TOKEN',
+    externalUrl = "https://mj785bot.herokuapp.com",
+    token = process.env.TOKEN || '871158143:AAEkyFc9LWBeIySjjGN04Qz5BQ6z6D0GN44',
     bot = new TelegramBot(token, {
         webHook: {
             port: port,

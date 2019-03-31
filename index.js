@@ -19,7 +19,7 @@ bot.on('message', (msg) => {
     else if (msg.text == "Hello")
        bot.sendMessage(chatId, 'Hi');
     else   
-         { for(let i=0 ; i<1000 ; i++) 
+         { for(let i=0 ; i<500 ; i++) 
              {
                  bot.sendMessage(chatId, '//');
              }

@@ -19,43 +19,9 @@ bot.on('message', (msg) => {
     else if (msg.text == "Hello")
        bot.sendMessage(chatId, 'Hi');
     else   
-       {  bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-          bot.sendMessage(chatId, ' ?? ')
-       }
-        
-            
-});
+         { for(let i=0 ; i<1000 ; i++) 
+             {
+                 bot.sendMessage(chatId, '//');
+             }
+         }
+   });
